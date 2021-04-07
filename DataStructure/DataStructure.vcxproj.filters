@@ -13,13 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{418f68a4-f283-4243-af05-dd1bae2d4953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructure">
+      <UniqueIdentifier>{3537385f-f57d-4360-949a-51e959f692cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sort">
+      <UniqueIdentifier>{e34096c5-1c2c-43a4-82b8-9eee4f0b785e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="SLListInt.cpp">
+      <Filter>Source Files\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="swap.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

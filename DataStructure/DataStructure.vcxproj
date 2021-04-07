@@ -24,6 +24,7 @@
     <ProjectGuid>{11d67b15-83cb-4af4-9e88-9a1bdd856896}</ProjectGuid>
     <RootNamespace>DataStructure</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DataStructureAndAlgorithm</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,8 +140,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="swap.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BST.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="SLListInt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTree.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
